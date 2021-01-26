@@ -23,6 +23,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 def load_data(database_filepath):
+ #load data from database
     engine = sq.create_engine('sqlite:///{}'.format(database_filepath))
     df = pd.read_sql_table('DisasterResponse',engine)
     X = df['message']
