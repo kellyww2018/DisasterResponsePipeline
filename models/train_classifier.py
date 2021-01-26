@@ -61,6 +61,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
         print(classification_report(Y_test.iloc[:,i], Y_pred[:,i])) 
 
 def save_model(model, model_filepath):
+    #save model as pickle
     with open(model_filepath, 'wb') as file:
         pickle.dump(model, file)
 
