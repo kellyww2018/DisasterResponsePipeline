@@ -25,5 +25,4 @@ This is an example of a message we can type to test the performance of the model
 ![image](https://user-images.githubusercontent.com/44659532/126101152-82bffe24-17d2-4163-af55-a5c50741647e.png)
 
 After clicking Classify Message, we can see the categories which the message belongs to highlighted in green
-![image](https://user-images.githubusercontent.com/44659532/126101257-a62cf445-52fe-4ca0-b213-e7428379c317.png)
-
+![image](https://user-images.githubusercontent.com/44659532/126101666-6cb9beb6-6c62-42b0-b646-c13655b184d5.png)
